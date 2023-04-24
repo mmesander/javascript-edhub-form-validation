@@ -4,8 +4,8 @@ const usernameError = document.getElementById('username-error-message');
 const passwordField = document.getElementById('password-field');
 const passwordError = document.getElementById('password-error-message');
 
-usernameField.addEventListener('keyup', handleInputUsername)
-passwordField.addEventListener('keyup', handleInputPassword)
+usernameField.addEventListener('keyup', handleInputUsername);
+passwordField.addEventListener('keyup', handleInputPassword);
 
 function handleInputUsername(e) {
     if (e.target.value.includes('@')) {
